@@ -1,2 +1,3 @@
 rootProject.name='ActivityAnimUtils'
 include ':app'
+include ':ActivityAnim'

@@ -1,18 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:fillViewport="true"
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:id="@+id/main_activity_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="50dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/main_activity_zoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zoom"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_activity_fade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Fade"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_activity_windmill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Windmill"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_activity_spin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Spin"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_activity_diagonal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Diagonal"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_activity_split"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Split"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_activity_shrink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Shrink"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_activity_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Card"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_activity_in_and_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="In And Out"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_activity_swipe_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Swipe Left"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_activity_swipe_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Swipe Right"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_activity_slide_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Slide Left"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_activity_slide_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Slide Right"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_activity_slide_down"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Slide Down"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_activity_slide_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Slide Up"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
